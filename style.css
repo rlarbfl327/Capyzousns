@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Ownglyph_meetme-Rg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NPSfontBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url(https://cdn.pixabay.com/photo/2022/04/29/12/20/carrots-7163608_1280.png);
+}
+
+section{
+    flex-direction: column;
+    background-color: rgb(255, 244, 244);
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.title {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #ffdfe5;
+    box-shadow: 3px 3px 2px #fff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    color: rgb(85, 85, 85);
+    text-align: center;
+    line-height: 50px;
+    font-family: 'NPSfontBold';
+}
+
+.box {
+    width: 210px;
+    height: 210px;
+    background: url(./images/capyzou_2\ 1.png) padding-box,
+      linear-gradient(90deg, #ffffca , #ffddcf, #f89db8) border-box;
+    background-size: contain;
+    border-radius: 200px;
+    border: 10px solid transparent;
+    margin-left: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+p{
+    margin-bottom: 10px;
+    color: rgb(92, 92, 92);
+    text-decoration-line: underline;
+    text-decoration-color: #ffa1a1;
+    text-decoration-style: dashed;
+    font-size: 1.5rem;
+    font-family: 'Ownglyph_meetme-Rg';
+}
+
+button{
+    width: 350px;
+    height: 70px;
+    background-color: rgb(255, 254, 212);
+    color: rgb(117, 117, 117);
+    border: 0;
+    margin-top: 15px;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    font-family: 'Ownglyph_meetme-Rg';
+}
+
+button:hover{
+    background: #decfff;
+}
